@@ -9,11 +9,10 @@ let addresses = [
 	'sgaa.rapidssl.pp.ua:2096#加入频道获取更多内容 ',
 	"interactive.kohls.com:2096#@GONGYICF",
 	'cfip.xxxxxxxx.tk:2096#AD钙奶官方优选',
-    'cdn.kaiche.tk:2096#AD钙奶官方优选',
-    'ygbb.rapidssl.pp.ua:2096#AD钙奶官方优选',
-    'cf.090227.xyz:443#AD钙奶官方优选',
-    'sp.rweek.top:443#AD钙奶官方优选',
-    'phbb.entrust.pp.ua:2096#AD钙奶官方优选',
+        'cdn.kaiche.tk:2096#AD钙奶官方优选',
+        'ygbb.rapidssl.pp.ua:2096#AD钙奶官方优选'
+        'sp.rweek.top:443#AD钙奶官方优选',
+        'phbb.entrust.pp.ua:2096#AD钙奶官方优选',
 	'xinbb.rapidssl.pp.ua:2096#AD钙奶官方优选',
 	'baxee.rapidssl.pp.ua:2096#AD钙奶官方优选',
 	"dogechain.info:2083#AD钙奶官方优选",
@@ -31,7 +30,7 @@ let addressesapi = [
 	'https://addressesapi.090227.xyz/cmcc',
 ];
 
-let DLS = 1;//速度下限
+let DLS = 10;//速度下限
 let addressescsv = [
 	//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/HKG_FALSE_IP.csv',
 	'https://raw.githubusercontent.com/yuanzi911/yxip1/main/result.csv',

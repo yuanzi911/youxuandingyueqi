@@ -7,7 +7,7 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	'hkaa.geotrust.pp.ua:2087#AD钙奶优选域名',
 	'sgaa.rapidssl.pp.ua:2096#加入频道获取更多内容 ',
-	"interactive.kohls.com:2096#@GONGYICF",
+	'interactive.kohls.com:2096#@GONGYICF',
 	'cfip.xxxxxxxx.tk:2096#AD钙奶官方优选',
         'cdn.kaiche.tk:2096#AD钙奶官方优选',
         'ygbb.rapidssl.pp.ua:2096#AD钙奶官方优选'
@@ -15,17 +15,17 @@ let addresses = [
         'phbb.entrust.pp.ua:2096#AD钙奶官方优选',
 	'xinbb.rapidssl.pp.ua:2096#AD钙奶官方优选',
 	'baxee.rapidssl.pp.ua:2096#AD钙奶官方优选',
-	"dogechain.info:2083#AD钙奶官方优选",
-	"ws.rayshow.link:2083#AD钙奶官方优选",
-	"www.idle-empire.com:2096#AD钙奶官方优选",
-	"www.zendesk.com:2083#AD钙奶官方优选",
-	"aliyun.godns.onflashdrive.app:2096#AD钙奶官方",
+	'dogechain.info:2083#AD钙奶官方优选',
+	'ws.rayshow.link:2083#AD钙奶官方优选',
+	'www.idle-empire.com:2096#AD钙奶官方优选',
+	'www.zendesk.com:2083#AD钙奶官方优选',
+	'aliyun.godns.onflashdrive.app:2096#AD钙奶官方',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [ 
 	'https://raw.githubusercontent.com/yuanzi911/yxip1/main/yxip1.txt',
-    'https://addressesapi.090227.xyz/CloudFlareYes',
+        'https://addressesapi.090227.xyz/CloudFlareYes',
 	'https://addressesapi.090227.xyz/ct',
 	'https://addressesapi.090227.xyz/cmcc',
 ];

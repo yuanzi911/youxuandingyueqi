@@ -10,16 +10,9 @@ let addresses = [
 	'interactive.kohls.com:2096#@GONGYICF',
 	'cfip.xxxxxxxx.tk:2096#AD钙奶官方优选',
     'cdn.kaiche.tk:2096#AD钙奶官方优选',
-    'ygbb.rapidssl.pp.ua:2096#AD钙奶官方优选',
-    'sp.rweek.top:443#AD钙奶官方优选',
-    'phbb.entrust.pp.ua:2096#AD钙奶官方优选',
-	'xinbb.rapidssl.pp.ua:2096#AD钙奶官方优选',
-	'baxee.rapidssl.pp.ua:2096#AD钙奶官方优选',
+	'sp.rweek.top:443#AD钙奶官方优选',
 	'dogechain.info:2083#AD钙奶官方优选',
 	'ws.rayshow.link:2083#AD钙奶官方优选',
-	'www.idle-empire.com:2096#AD钙奶官方优选',
-	'www.zendesk.com:2083#AD钙奶官方优选',
-	'aliyun.godns.onflashdrive.app:2096#AD钙奶官方',
 	
 ];
 
@@ -45,8 +38,7 @@ let addressesnotlsapi = [
 
 let DLS = 10;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/HKG_FALSE_IP.csv',
-	'https://raw.githubusercontent.com/yuanzi911/yxip1/main/result.csv',
+	//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/result.csv',
 ];
 
 

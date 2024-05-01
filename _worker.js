@@ -5,9 +5,9 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'interactive.kohls.com:2096#@GONGYICF&@mfbp1',
+	'interactive.kohls.com:2096#@GONGYICF',
 	'cfip.xxxxxxxx.tk:2096#加入频道获取更多内容',
-    'cdn.kaiche.tk:2096#AD钙奶官方优选',
+    'cdn.kaiche.tk:2096#@mfbp1',
 	'sp.rweek.top:443#AD钙奶官方优选',
 	'dogechain.info:2083#AD钙奶官方优选',
 	

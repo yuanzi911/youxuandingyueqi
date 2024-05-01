@@ -1,23 +1,23 @@
-
 // 部署完成后在网址后面加上这个，获取订阅器默认节点，/auto
 
 let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'interactive.kohls.com:2096#@GONGYICF'
+	'icook.tw:2053#官方优选域名',
+	'cloudflare.cfgo.cc#优选官方线路',
+	'interactive.kohls.com:2096#@GONGYICF',
 	'cfip.xxxxxxxx.tk:2096#加入频道获取更多内容',
-    'cdn.kaiche.tk:2096#AD钙奶优选',
+	'cdn.kaiche.tk:2096#AD钙奶优选',
 	'sp.rweek.top:443#AD钙奶官方优选',
 	'dogechain.info:2083#AD钙奶官方优选',
 	'aliyun.classelivre.eu.org:2096#AD钙奶官方优选',
-	'cloudflare.cfgo.cc#优选官方线路',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
 	'https://raw.githubusercontent.com/yuanzi911/yxip1/main/yxip1.txt',
-    'https://addressesapi.090227.xyz/CloudFlareYes',
+	'https://addressesapi.090227.xyz/CloudFlareYes',
 	'https://addressesapi.090227.xyz/ct',
 	'https://addressesapi.090227.xyz/cmcc',
 ];
@@ -36,7 +36,7 @@ let addressesnotlsapi = [
 
 let DLS = 8;//速度下限
 let addressescsv = [
-		//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/result.csv',
+		//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/result.csv', //iptest测速结果文件。
 ];
 
 let subconverter = "apiurl.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub

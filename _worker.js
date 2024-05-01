@@ -5,17 +5,17 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'interactive.kohls.com:2096#@GONGYICF',
+	'interactive.kohls.com:2096#@GONGYICF'
 	'cfip.xxxxxxxx.tk:2096#加入频道获取更多内容',
     'cdn.kaiche.tk:2096#AD钙奶优选',
 	'sp.rweek.top:443#AD钙奶官方优选',
 	'dogechain.info:2083#AD钙奶官方优选',
 	'aliyun.classelivre.eu.org:2096#AD钙奶官方优选',
-	
+	'cloudflare.cfgo.cc#优选官方线路',
 ];
 
 // 设置优选地址api接口
-let addressesapi = [ 
+let addressesapi = [
 	'https://raw.githubusercontent.com/yuanzi911/yxip1/main/yxip1.txt',
     'https://addressesapi.090227.xyz/CloudFlareYes',
 	'https://addressesapi.090227.xyz/ct',
@@ -34,11 +34,10 @@ let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
-let DLS = 10;//速度下限
+let DLS = 8;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/result.csv',
+		//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/result.csv',
 ];
-
 
 let subconverter = "apiurl.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅转换配置文件
@@ -338,6 +337,12 @@ export default {
 			RproxyIP = url.searchParams.get('proxyip') || RproxyIP;
 			
 			if (!url.pathname.includes("/sub")) {
+				const envKey = env.URL302 ? 'URL302' : (env.URL ? 'URL' : null);
+				if (envKey) {
+					const URLs = await ADD(env[envKey]);
+					const URL = URLs[Math.floor(Math.random() * URLs.length)];
+					return envKey === 'URL302' ? Response.redirect(URL, 302) : fetch(new Request(URL, request));
+				}
 				//首页改成一个nginx伪装页
 				return new Response(await nginx(), {
 					headers: {

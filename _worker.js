@@ -10,7 +10,7 @@ let addresses = [
     'cdn.kaiche.tk:2096#AD钙奶优选',
 	'sp.rweek.top:443#AD钙奶官方优选',
 	'dogechain.info:2083#AD钙奶官方优选',
-	
+	'aliyun.classelivre.eu.org:2096#AD钙奶官方优选',
 	
 ];
 

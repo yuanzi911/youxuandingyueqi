@@ -9,6 +9,7 @@ let addresses = [
 	'cdn.kaiche.tk:2096#AD钙奶优选',
 	'sp.rweek.top:443#AD钙奶官方优选',
 	'aliyun.classelivre.eu.org:2096#AD钙奶官方优选',
+'cf.090227.xyz:443#AD钙奶优选',
 ];
 
 // 设置优选地址api接口

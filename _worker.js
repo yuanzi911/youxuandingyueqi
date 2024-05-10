@@ -8,7 +8,7 @@ let addresses = [
 	'cfip.xxxxxxxx.tk:2096#加入频道获取更多内容',
 	'cdn.kaiche.tk:2096#AD钙奶优选',
 	'sp.rweek.top:443#AD钙奶官方优选',
-	'aliyun.classelivre.eu.org:2096#AD钙奶官方优选',
+	'aliyun.yueuzi.cloudns.biz:2096#AD钙奶官方优选',
 	'cf.090227.xyz:443#AD钙奶优选',
 ];
 

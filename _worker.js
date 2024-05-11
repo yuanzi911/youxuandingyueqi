@@ -61,7 +61,7 @@ let EndPS = '';//节点名备注内容
 
 let FileName = 'WorkerVless2sub';
 let SUBUpdateTime = 6; 
-let total = 99;//PB
+let total = 999;//PB
 //let timestamp = now;
 let timestamp = 4102329600000;//2099-12-31
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;

@@ -12,6 +12,8 @@ let addresses = [
 	'cf.090227.xyz:443#AD钙奶优选',
 ];
 
+let sub = 'alvless.filegear-sg.me';// 留空则显示原版内容
+
 // 设置优选地址api接口
 let addressesapi = [
 	'https://raw.githubusercontent.com/yuanzi911/yxip1/main/yxip1.txt',
